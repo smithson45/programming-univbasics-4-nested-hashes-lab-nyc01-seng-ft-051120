@@ -83,8 +83,8 @@ def adding_matz
         :languages => ["C"]
       }
     }
-    x = programmer_hash[:dennis_ritchie][:languages]
-    x.to_s
+ programmer_hash[:yukihiro_matsumoto] += {:known_for => "Ruby",:languages => ["LISP","C"]}
+ binding.pry
 
 end
 
